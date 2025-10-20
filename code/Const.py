@@ -1,23 +1,13 @@
-#COLOR
 import pygame
 from pygame.examples.grid import WINDOW_WIDTH, WINDOW_HEIGHT
 
+#C
 cinzaClaro = (240, 240, 240)
 verdeOliva = (173, 204, 96)
 white = (255, 255, 255)
 
-MENU_OPTION = ('NEW GAME',
-               'SCORE',
-               'EXIT')
 
-MENU_TEXT = (
-    'use the up, down, left and right keys to play'
-
-)
-
-WIN_WIDTH = 714
-WIN_HEIGHT = 327
-
+#E
 EVENT_ENEMY = pygame.USEREVENT + 1
 
 ENTITY_SPEED ={
@@ -30,12 +20,25 @@ ENTITY_SPEED ={
 }
 
 
+#M
+
+MENU_OPTION = ('NEW GAME',
+               'SCORE',
+               'EXIT')
+MENU_TEXT = (
+    'use the up, down, left and right keys to play'
+
+)
+
+
+
 #S
 SPAWN_TIME = 2000
 
+#W
 
-# WIN_WIDTH = 1201
-# WIN_HEIGHT = 604
+WIN_WIDTH = 714
+WIN_HEIGHT = 327
 
 
 

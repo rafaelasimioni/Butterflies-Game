@@ -1,7 +1,7 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 import random
-from tokenize import ContStr
+
 
 from code.Background import Background
 from code.Const import WIN_WIDTH, WIN_HEIGHT
